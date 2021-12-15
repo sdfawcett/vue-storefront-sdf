@@ -1,6 +1,46 @@
 {
-  "current": "Default",
+  "current": {
+    "sections": {
+      "16391888848c6d6a74": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Hero_Image.png"
+        }
+      },
+      "163960714242cb8700": {
+        "type": "rich-text",
+        "settings": {
+          "title": "Shopify Theme From The Future",
+          "text": "<p>Step up your theme game.<\/p>"
+        }
+      },
+      "16396092388027ed1c": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Vuejs.png",
+          "title": "Why Shopify?",
+          "text": "<p>Easy to start, but difficult to master. Flexible and reliable.<\/p>",
+          "reverse": false
+        }
+      },
+      "16396092522cdad153": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Vuejs.png",
+          "title": "Vue.js",
+          "text": "<p>Lightweight and powerful.<\/p>",
+          "reverse": true
+        }
+      }
+    },
+    "content_for_index": [
+      "16391888848c6d6a74",
+      "163960714242cb8700",
+      "16396092388027ed1c",
+      "16396092522cdad153"
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {}
   }
 }
