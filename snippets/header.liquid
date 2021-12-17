@@ -4,10 +4,12 @@
         
         {% unless template == "product" %}
         <button class="menu-button" @click="toggleMenu">
+            <svg class="menu-arrow-icon">{% render 'header-arrow' %}</svg>
             <span>Menu</span>
         </button>
         {% else %}
         <a href="javascript:history.back()" class="menu-button">
+            <svg class="menu-arrow-icon" style="transform: none;">{% render 'header-arrow' %}</svg>
             <span>Back</span>
         </a>
         {% endunless %}
@@ -23,6 +25,19 @@
                     </template>
                     
                 </span>
+                <svg class="cart-arrow-icon">{% render 'header-arrow' %}</svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="header-mobile">
+        <a href="/" class="header-title">{{ shop.name }}</a>
+        <div class="mobile nav">
+            <button class="mobile-nav-button" @click="toggleMenu">
+                <span>Menu</span>
+            </button>
+            <button class="mobile-nav-button" @click="toggleMiniCart">
+                <span>Cart</span>
             </button>
         </div>
     </div>
