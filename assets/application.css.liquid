@@ -297,11 +297,11 @@ img {
 .product-template {
     padding-top: 25px;
     display: grid;
-    grid-template-columns: calc((100% - 25px) / 2);
+    grid-template-columns: 50% 50%;
     justify-content: space-between;
     margin-bottom: 32px;
 }
-@media (max-width: 599px) {
+@media (max-width: 900px) {
     .product-template {
         grid-template-columns: 100%;
    }
@@ -335,15 +335,16 @@ img {
 .product-description-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    padding:4rem;
 }
 .product-description {
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
 }
-@media (max-width: 599px) {
+@media (max-width: 900px) {
     .product-description {
         width: 100%;
+        padding: 0;
    }
 }
 .product-title {
