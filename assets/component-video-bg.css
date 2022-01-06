@@ -62,7 +62,7 @@
     text-align: center;
     padding: 4rem;
     width: 54.8rem;
-    background-color: rgb(var(--color-background));
+    background-color: rgba(0,0,0,.5);
   }
   .videoBackground .overlay {
     content: "";
@@ -71,7 +71,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: #062CF7;
+    background: #149c54;
     z-index: 1;
   }
   .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
@@ -102,15 +102,19 @@
   .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
     color: #000;
     font-size: 5rem;
-    line-height: 65px;
+    line-height: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .videoBackground .videoBoxInfoDescription, .videoBackground .imageBoxInfoDescription {
     max-width: 500px;
     margin: 0 auto;
   }
   .videoBackground .videoBoxInfoDescription p, .videoBackground .imageBoxInfoDescription p {
-    font-size: 18px;
-    line-height: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    font-weight: 300;
   }
   .videoBackground .placeholderNoblocks {
     text-align: center;

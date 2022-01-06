@@ -3,6 +3,9 @@
     <div class="image-with-text-description-container">
         <h2 class="heading">{{ section.settings.title }}</h2>
         <div class="image-with-text-body">{{ section.settings.text }}</div>
+        <a class="iwt-button" href="{{ section.settings.link }}">
+            {{ section.settings.linktext }}
+          </a>
     </div>
 </div>
 
@@ -26,6 +29,17 @@
             "id": "text",
             "label": "Description",
             "default": "<p>Write your description here</p>"
+        },
+        {
+            "id": "link",
+            "type": "url",
+            "label": "Link URL"
+        },
+        {
+            "id": "linktext",
+            "type": "text",
+            "label": "Link text",
+            "default": "Click here"
         },
         {
             "type": "checkbox",

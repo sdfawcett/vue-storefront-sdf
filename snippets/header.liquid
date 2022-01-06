@@ -15,7 +15,10 @@
         {% endunless %}
         
 
-        <a href="/" class="header-title">{{ shop.name }}</a>
+        
+        <a href="/" class="header-title" itemprop="url">
+            <img src="{{ "bomb-botanicals-logo-2.png" | asset_url }}" alt="{{ shop.name }}" itemprop="logo">
+        </a>
 
         <div class="cart-button-container" @click="toggleMiniCart">
             <button class="cart-button">
@@ -31,7 +34,9 @@
     </div>
 
     <div class="header-mobile">
-        <a href="/" class="header-title">{{ shop.name }}</a>
+        <a href="/" class="header-title" itemprop="url">
+            <img src="{{ "bomb-botanicals-logo-cropped.png" | asset_url }}" alt="{{ shop.name }}" itemprop="logo">
+        </a>
         <div class="mobile nav">
             <button class="mobile-nav-button" @click="toggleMenu">
                 <span>Menu</span>

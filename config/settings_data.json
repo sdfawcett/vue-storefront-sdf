@@ -1,43 +1,143 @@
 {
   "current": {
+    "checkout_logo_image": "shopify:\/\/shop_images\/bomb-botanicals-logo-2_1.png",
     "sections": {
-      "16391888848c6d6a74": {
-        "type": "hero",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/Hero_Image.png"
-        }
-      },
-      "163960714242cb8700": {
-        "type": "rich-text",
-        "settings": {
-          "title": "Shopify Theme From The Future",
-          "text": "<p>Step up your theme game.<\/p>"
-        }
-      },
       "16396092388027ed1c": {
         "type": "image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Vuejs.png",
-          "title": "Why Shopify?",
-          "text": "<p>Easy to start, but difficult to master. Flexible and reliable.<\/p>",
+          "image": "shopify:\/\/shop_images\/pexels-hazel-marie-7604357_1_1.jpg",
+          "title": "EFFECTIVE. NOT EXPENSIVE.",
+          "text": "<p>Since the beginning, we have dedicated ourselves to making effective, high quality CBD that is affordable. Bomb Botanicals was founded on the belief that CBD has a positive impact on our quality of life, and should be available to everyone regardless of their circumstances. <\/p>",
+          "link": "",
+          "linktext": "Click here",
           "reverse": false
         }
       },
       "16396092522cdad153": {
         "type": "image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Vuejs.png",
-          "title": "Vue.js",
-          "text": "<p>Lightweight and powerful.<\/p>",
+          "image": "shopify:\/\/shop_images\/pexels-binoid-cbd-3689307_1.jpg",
+          "title": "MADE TO WORK. MADE FOR ALL.",
+          "text": "<p>In 2014, we set out to try making affordable healthcare and natural medicine more accessible to all by crafting CBD products that were effective and affordable, so everyone could experience its benefits. <\/p>",
+          "link": "",
+          "linktext": "Click here",
           "reverse": true
         }
+      },
+      "1639683435e4836f79": {
+        "type": "logo-list",
+        "disabled": true,
+        "blocks": {
+          "1639683435e4836f79-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/js_logo.png",
+              "link": ""
+            }
+          },
+          "1639683435e4836f79-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/css_logo.png",
+              "link": ""
+            }
+          },
+          "1639683435e4836f79-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/vuejs_b75a9abd-e4c2-4809-896f-f8639f3e4eb8.png",
+              "link": ""
+            }
+          },
+          "1639683435e4836f79-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shopify_glyph.png",
+              "link": "https:\/\/www.shopify.com"
+            }
+          }
+        },
+        "block_order": [
+          "1639683435e4836f79-0",
+          "1639683435e4836f79-1",
+          "1639683435e4836f79-2",
+          "1639683435e4836f79-3"
+        ],
+        "settings": {
+          "title": "Logo List"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "eed5f460-3529-4533-8cc1-371288d64922": {
+            "type": "social_link",
+            "settings": {
+              "title": "Facebook",
+              "link": "https:\/\/www.facebook.com"
+            }
+          },
+          "78c2a755-a8c9-47f1-8bea-060b31a814d4": {
+            "type": "social_link",
+            "settings": {
+              "title": "Twitter",
+              "link": "https:\/\/www.twitter.com"
+            }
+          },
+          "bc75971b-ba08-4ea5-b3b5-d6d13689c038": {
+            "type": "social_link",
+            "settings": {
+              "title": "YouTube",
+              "link": "https:\/\/www.youtube.com"
+            }
+          }
+        },
+        "block_order": [
+          "eed5f460-3529-4533-8cc1-371288d64922",
+          "78c2a755-a8c9-47f1-8bea-060b31a814d4",
+          "bc75971b-ba08-4ea5-b3b5-d6d13689c038"
+        ],
+        "settings": {
+          "title": "Made to Work. Made for All."
+        }
+      },
+      "16397639063c5e19bc": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/lazarus-naturals-farmer.jpg"
+        }
+      },
+      "164080507379956dd6": {
+        "type": "video-background",
+        "blocks": {
+          "164080507379956dd6-0": {
+            "type": "video",
+            "settings": {
+              "video_link": "",
+              "video_image": "shopify:\/\/shop_images\/hemp-farm.jpg",
+              "overlay_opacity": 0,
+              "title": "Natural Relief",
+              "text": "<p>Upgrade daily routines with unique benefits that support your<em> <\/em>lifestyle.<\/p>",
+              "color_text": "#ffffff",
+              "button_label": "shop now",
+              "button_link": "shopify:\/\/collections\/all",
+              "color_btn_bg": "#ffffff",
+              "color_btn_text": "#60c485"
+            }
+          }
+        },
+        "block_order": [
+          "164080507379956dd6-0"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
-      "16391888848c6d6a74",
-      "163960714242cb8700",
+      "164080507379956dd6",
       "16396092388027ed1c",
-      "16396092522cdad153"
+      "16396092522cdad153",
+      "1639683435e4836f79",
+      "16397639063c5e19bc"
     ]
   },
   "presets": {
