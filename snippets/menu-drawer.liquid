@@ -16,6 +16,21 @@
         {% endfor %}
     </ul>
 
+    
+    <div class="menu-drawer-image-wrap flex row">
+        
+        <div class="md-card">
+            <h3>Featured Product</h3>
+            <img src="{{ all_products['cbd-gummies'].featured_image | product_img_url: ‘large’ }}">
+            <h3>{{ all_products['cbd-gummies'].title }}</h3>
+            <p class="md-price">$19.99</p>
+            <p><button>Shop Now</button></p>
+          </div>
+        
+        
+    </div>
+    
+
     <div class="footer-menu">
         <ul class="secondary-menu">
             {% for link in linklists.footer2.links %}

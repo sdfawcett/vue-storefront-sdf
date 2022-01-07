@@ -98,7 +98,8 @@
           "bc75971b-ba08-4ea5-b3b5-d6d13689c038"
         ],
         "settings": {
-          "title": "Made to Work. Made for All."
+          "title": "Made to Work. Made for All.",
+          "image": "shopify:\/\/shop_images\/bomb-botanicals-logo-3.png"
         }
       },
       "16397639063c5e19bc": {
@@ -122,7 +123,7 @@
               "button_label": "shop now",
               "button_link": "shopify:\/\/collections\/all",
               "color_btn_bg": "#ffffff",
-              "color_btn_text": "#60c485"
+              "color_btn_text": "#333333"
             }
           }
         },
@@ -130,6 +131,38 @@
           "164080507379956dd6-0"
         ],
         "settings": {}
+      },
+      "collection-banner": {
+        "type": "collection-banner",
+        "blocks": {
+          "1e880ded-6af3-4434-8d55-9b15267b9628": {
+            "type": "image",
+            "settings": {
+              "color_bg": "#16165b",
+              "image_bg": "shopify:\/\/shop_images\/collection-banner-4.jpg",
+              "overlay_opacity": 0,
+              "title": "All Products",
+              "text": "<p>Since 2014, we've existed to provide high quality CBD everyone can afford—regardless of circumstance. <\/p>",
+              "color_text": "#ffffff",
+              "button_label": "",
+              "button_link": "",
+              "color_btn_bg": "#ffffff",
+              "color_btn_text": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "1e880ded-6af3-4434-8d55-9b15267b9628"
+        ],
+        "settings": {}
+      },
+      "1641517228933ed475": {
+        "type": "collection-slider",
+        "settings": {
+          "title": "Featured Collection",
+          "collection": "most-popular",
+          "product_count": 4
+        }
       }
     },
     "content_for_index": [
@@ -137,7 +170,8 @@
       "16396092388027ed1c",
       "16396092522cdad153",
       "1639683435e4836f79",
-      "16397639063c5e19bc"
+      "16397639063c5e19bc",
+      "1641517228933ed475"
     ]
   },
   "presets": {
