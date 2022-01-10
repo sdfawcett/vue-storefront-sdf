@@ -1,0 +1,27 @@
+<div id="tsum-tabs">
+
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">Description</label>
+
+    {% unless product.metafields.description.details == blank %}
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">Details</label>
+    {% endunless %}
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Serving & Usage</label>
+
+    <section id="content1">
+        <p>{{ product.description }}</p>
+    </section>
+
+    <section id="content2">
+        {% unless product.metafields.description.details == blank %}
+        <p>{{ product.metafields.description.details }}</p>
+        {% endunless %}
+    </section>
+
+    <section id="content3">
+        <p>CBD's effects are highly individual. Serving sizes can range from 25-200 mg. To find the amount of CBD that's right for you, start with two gummies (50 mg), wait two hours, and increase as needed.</p>
+    </section>
+</div>
