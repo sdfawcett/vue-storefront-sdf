@@ -156,22 +156,35 @@
         ],
         "settings": {}
       },
-      "1641517228933ed475": {
-        "type": "collection-slider",
+      "1641849891dc010fe5": {
+        "type": "collection-grid",
         "settings": {
-          "title": "Featured Collection",
-          "collection": "most-popular",
-          "product_count": 4
+          "title": "Featured Collection: Tinctures",
+          "ctabutton": "Shop Tinctures",
+          "paragraph": "<p>Tried and proven, our oil tinctures provide a versatile, effective, and trusted CBD format that’s perfect for any wellness routine. Enjoy a wide variety of flavors and greater control over your serving size—as well as options like high potency, standard potency, and THC free.<\/p>",
+          "collection": "tinctures"
+        }
+      },
+      "16418597209df04830": {
+        "type": "cta",
+        "settings": {
+          "title": "NEW TO CBD?",
+          "link": "shopify:\/\/collections\/all",
+          "linktext": "Explore",
+          "paragraph": "<p>Educational resources to help find the product that's right for you.<\/p>",
+          "cta_image": "shopify:\/\/shop_images\/collection-banner-2.jpg",
+          "button_color": "#149c54"
         }
       }
     },
     "content_for_index": [
       "164080507379956dd6",
+      "1641849891dc010fe5",
       "16396092388027ed1c",
       "16396092522cdad153",
       "1639683435e4836f79",
       "16397639063c5e19bc",
-      "1641517228933ed475"
+      "16418597209df04830"
     ]
   },
   "presets": {

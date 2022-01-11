@@ -1,0 +1,33 @@
+<div class="bb">
+<div class="container">
+    <div class="wrapper">
+      <h1 style="background-color: {{ section.settings.text_color }};">{{ section.settings.text }}</h1>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Billboard",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Billboard Text",
+      "default": "Hello <br/> Have a nice day"
+    },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#149c54"
+      }
+  ],
+  "presets": [
+    {
+      "name": "Billboard Text",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

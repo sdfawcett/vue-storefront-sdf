@@ -1,0 +1,63 @@
+<div class="featured-collection-slider page-width">
+
+    
+    {%- assign collection = collections[section.settings.collection] -%}
+    
+        <div class="collection-feature">
+            <div class="row">
+                <div class="col">
+                    <a href="{{ collection.url }}">
+                        {{ collection.image.src | image_url: width: 2048 | image_tag }}
+                    </a>
+                </div>
+                <div class="col">
+                    {% if section.settings.title != blank %}
+                    <div class="section-header text-center">
+                      <h2 class="heading">{{ section.settings.title | escape }}</h2>
+                    </div>
+                    {% endif %}
+                    {{ section.settings.paragraph }}
+                    <a href="{{ collection.url }}" class="iwt-button">{{ section.settings.ctabutton }}</a>
+                </div>
+            </div>  
+            
+        </div>
+        
+    </div>
+
+{% schema %}
+{
+  "name": "Collection Feature",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured Collection Title"
+    },
+    {
+        "type": "text",
+        "id": "ctabutton",
+        "label": "Button Text",
+        "default": "Shop Now"
+      },
+    {
+        "type": "richtext",
+        "id": "paragraph",
+        "label": "Body Text"
+      },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Collection",
+      "name": "Collection Feature",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

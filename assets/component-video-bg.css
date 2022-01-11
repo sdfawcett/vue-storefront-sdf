@@ -101,11 +101,11 @@
     font-family: 'Montserrat-Medium', Arial, sans-serif;
   }
   .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
-    color: #000;
+    color: #333;
     font-size: 5rem;
     line-height: 80px;
-    letter-spacing: 1px;
-    font-family: 'Montserrat-Medium', Arial, sans-serif;
+    letter-spacing: 1.3px;
+    font-family: 'Sora-Medium', Arial, sans-serif;
     margin-bottom: 1rem;
   }
   .videoBackground .videoBoxInfoDescription, .videoBackground .imageBoxInfoDescription {
@@ -113,7 +113,7 @@
     margin: 0 auto;
   }
   .videoBackground .videoBoxInfoDescription p, .videoBackground .imageBoxInfoDescription p {
-    font-family: 'Montserrat-Medium', Arial, sans-serif;
+    font-family: 'Sora-Medium', Arial, sans-serif;
     letter-spacing: 2px;
     line-height: 1.5;
     font-size: 1.4rem;

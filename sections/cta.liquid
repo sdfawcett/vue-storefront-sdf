@@ -1,0 +1,54 @@
+<div class="banner" style="background-image: url('{{ section.settings.cta_image | img_url: 'master' }}');">
+    <div class="banner-text">
+      <h1>{{ section.settings.title }}</h1>
+      {{ section.settings.paragraph }}
+      <a href="{{ section.settings.link }}" style="background-color: {{ section.settings.button_color }};" class="iwt-button">{{ section.settings.linktext }}</a>
+    </div>
+  </div>
+
+  {% schema %}
+{
+  "name": "Call To Action",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "The CTA Heading"
+    },
+    {
+        "id": "link",
+        "type": "url",
+        "label": "Link URL"
+    },
+    {
+        "id": "linktext",
+        "type": "text",
+        "label": "Link text",
+        "default": "Click here"
+    },
+    {
+        "type": "richtext",
+        "id": "paragraph",
+        "label": "Body Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "cta_image",
+        "label": "CTA background image"
+      },
+      {
+        "type": "color",
+        "id": "button_color",
+        "label": "CTA Button Color",
+        "default": "#149c54"
+      }
+  ],
+  "presets": [
+    {
+      "name": "Call To Action",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
