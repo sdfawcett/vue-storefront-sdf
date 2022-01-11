@@ -287,7 +287,7 @@ main {
 }
 
 .footer {
-    font-family: 'Montserrat-Medium', Arial, sans-serif;
+    font-family: 'Sora-Medium', Arial, sans-serif;
 }
 
 .footer .header-title {
@@ -448,7 +448,8 @@ img {
     position: relative;
     margin: 16px 0;
     text-align: center;
-    color: #333;
+    color: #0c5e32;
+    font-family: 'Sora-Medium',Arial,sans-serif;
 }
 
 .product-card-title h3 {
@@ -517,11 +518,11 @@ img {
     text-align: center;
     font-family: arial;
     padding: 1rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Sora-Medium',Arial, sans-serif;
 }
 
 .md-price {
-    color: grey;
+    color: #ca2a2a;
     font-size: 22px;
     margin-bottom: 1rem;
 }
@@ -586,7 +587,7 @@ img {
     display: inline-block;
     margin: 0 0 -1px;
     padding: 15px 25px;
-    font-family: 'Montserrat-Medium';
+    font-family: 'Sora-Medium',Arial,sans-serif;
     font-weight: 600;
     text-align: center;
     color: #bbb;
@@ -631,16 +632,18 @@ img {
 
 #tsum-tabs table {
     width: 100%;
-    font-family: 'Montserrat-Medium';
+    font-family: 'Sora-Medium',Arial,sans-serif;
     color:#0c5e32;
 } 
 
 #tsum-tabs table td {
     padding:1rem;
+    color: #333;
 } 
 
 #tsum-tabs table, #tsum-tabs tr, #tsum-tabs td {
     border: 1px solid #0c5e32;
+    font-family: 'Sora-Medium',Arial,sans-serif;
 } 
 
 @media screen and (max-width: 650px) {
@@ -708,11 +711,12 @@ img {
 }
 
 .product-description p {
-    font-family: 'Montserrat-Medium';
-    letter-spacing: 1px;
+    font-family: 'Sora-Medium',Arial,sans-serif;
+
     line-height: 1.2;
     font-size: 1.2rem;
     font-weight: 200;
+    color: #333;
 }
 
 
@@ -728,7 +732,7 @@ img {
     font-size: 30px;
     text-transform: uppercase;
     color: #0c5e32;
-    font-family: 'Montserrat-Medium', Arial, sans-serif;
+    font-family: 'Sora-Medium', Arial, sans-serif;
 }
 
 .product-option-row {
@@ -767,7 +771,7 @@ img {
     font-size: 16px;
     width: 100%;
     text-align: left;
-    font-family: 'Montserrat-Medium';
+    font-family: 'Sora-Medium',Arial,sans-serif;
 }
 
 .add-to-cart-button {
@@ -842,7 +846,7 @@ img {
 .product-option-item {
     padding: 25px;
     cursor: pointer;
-    font-family: 'Montserrat-Medium';
+    font-family: 'Sora-Medium',Arial,sans-serif;
     color: #0c5e32;
 }
 
@@ -928,6 +932,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Sora-Medium',Arial,sans-serif;
 }
 
 .cart-button {
@@ -936,6 +941,8 @@ img {
     transition: 0.15s;
     z-index: 999;
     color: #0c5e32;
+    font-family: 'Sora-Medium',Arial,sans-serif;
+    font-size: 1.3rem;
 }
 
 .cart-button:hover {
@@ -1126,6 +1133,7 @@ img {
 .menu-drawer-inner .navigation-menu a {
     font-size: 1.3rem;
     color: #0c5e32;
+    font-family: 'Sora-Medium',Arial,sans-serif;
 }
 
 .menu-drawer-inner .navigation-menu li {
@@ -1138,6 +1146,8 @@ img {
     transition: 0.15s;
     z-index: 999;
     color: #0c5e32;
+    font-family: 'Sora-Medium',Arial,sans-serif;
+    font-size: 1.3rem;
 }
 
 .menu-button:hover {
@@ -1328,6 +1338,10 @@ img {
 
   .collection-feature .col {
     width: 50%;
+    flex-direction: column;
+  }
+  .collection-feature .col:nth-child(2) {
+    width: 42%;
     flex-direction: column;
   }
   @media screen and (max-width: 425px) {
